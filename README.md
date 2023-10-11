@@ -1,5 +1,5 @@
 # About project
-Trata-se de um projeto para a aplicação da arquitetura de microservices com Spring, em que neste será registro pedido, simulando uma gestão de pedidos e pagamento, tendo uma comunicação com o [PAYMENTS](https://github.com/valentin-juan/payments)
+Trata-se de um projeto para a aplicação da arquitetura de microservices com Spring, em que neste será registro pedido, simulando uma gestão de pedidos e pagamento, tendo uma comunicação com o [PAYMENTS](https://github.com/valentin-juan/pagamentos)
 
 ---
 
