@@ -1,4 +1,4 @@
-package br.com.alurafood.pedidos.model;
+package br.com.valentin.pedidos.model;
 
 public enum Status {
     REALIZADO,

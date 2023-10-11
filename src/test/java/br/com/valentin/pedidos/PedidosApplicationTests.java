@@ -1,4 +1,4 @@
-package br.com.alurafood.pedidos;
+package br.com.valentin.pedidos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,6 @@
-package br.com.alurafood.pedidos.dto;
+package br.com.valentin.pedidos.dto;
 
-import br.com.alurafood.pedidos.model.Status;
+import br.com.valentin.pedidos.model.Status;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
