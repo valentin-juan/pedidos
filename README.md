@@ -22,11 +22,30 @@ Trata-se de um projeto para a aplicação da arquitetura de microservices com Sp
 `http://localhost:{gateway_port}/pedidos/pedido`
 * Response body
 ```json
-
+[
+    {
+        "id": 1,
+        "dataHora": "2023-10-12T20:50:50",
+        "status": "REALIZADO",
+        "itens": [
+            {
+                "id": 1,
+                "quantidade": 10,
+                "descricao": null
+            },
+            {
+                "id": 2,
+                "quantidade": 5,
+                "descricao": null
+            }
+        ]
+    }
+]
 ```
 
 ### POST itens
 `http://localhost:{gateway_port}/pedidos/pagamento`
+Campos obrigatórios
 ```json
 {
     "itens": [
@@ -39,6 +58,27 @@ Trata-se de um projeto para a aplicação da arquitetura de microservices com Sp
         "descrição": "Mc Chicken"
     }
     ]
+}
+```
+
+Body completo
+```json
+{
+  "id": 1,
+  "dataHora": "2023-10-12T20:50:50.3394675",
+  "status": "REALIZADO",
+  "itens": [
+    {
+      "id": 1,
+      "quantidade": 10,
+      "descricao": null
+    },
+    {
+      "id": 2,
+      "quantidade": 5,
+      "descricao": null
+    }
+  ]
 }
 ```
 ### PUT
